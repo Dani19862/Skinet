@@ -480,3 +480,6 @@ API/appsettings.json
 .bin
 client/ssl/localhost-key.pem
 client/ssl/localhost.pem
+API/identity.db-wal
+API/identity.db-shm
+API/identity.db
