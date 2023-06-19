@@ -10,6 +10,7 @@ import { SectionHeaderComponent } from './section-header/section-header.componen
 import { BreadcrumbModule } from 'xng-breadcrumb';
 import { NgxSpinnerModule } from 'ngx-spinner';
 import { BasketModule } from '../basket/basket.module';
+import { SharedModule } from '../shared/shared.module';
 
 
 
@@ -30,7 +31,8 @@ import { BasketModule } from '../basket/basket.module';
     }),
     BreadcrumbModule,
     NgxSpinnerModule,
-    BasketModule
+    BasketModule,
+    SharedModule
   ],
   exports: [
     NavBarComponent,
